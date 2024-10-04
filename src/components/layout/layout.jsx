@@ -12,7 +12,7 @@ export default function Layout({ children }) {
 
   return (
     <>
-      <div className="navbar text-black layout-container relative z-20">
+      <div className="navbar text-black layout-container relative z-20 custom-nav">
         <div className="flex-1">
           <a className="btn btn-ghost" onClick={() => router.push("/")}>
             <Logonav />
