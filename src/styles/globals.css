@@ -271,8 +271,8 @@ body {
     margin-bottom: -15px;
   }
 
-  .slideshow {
-    height: 80vh; 
+  .slideshow-custom {
+    height: 55vh; 
   }
 
   .slidetext {
@@ -282,10 +282,8 @@ body {
     text-align: left;
   }
 
-  .slideshow {
-    height: 70vh; /* Increase height to fit more content on smaller screens */
-    top: 100px;
-  }
+  
+
 
 
   .slidetext-service {
@@ -367,7 +365,7 @@ body {
   }
 
   .custom-nav {
-    max-width: 30%;
+    max-width: 100%;
   }
 
   .body {
@@ -382,9 +380,6 @@ body {
     text-align: center;
   }
   
-
-
-
 
 }
 

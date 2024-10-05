@@ -23,11 +23,11 @@ export const Slideshow = () => {
   }, []);
 
   return (
-    <div className="slideshow relative w-full h-[50vh]">
+    <div className="slideshow relative w-full h-[50vh] slideshow-custom">
       {slides.map((slide, index) => (
         <div
           key={slide.id}
-          className={`slide absolute w-full h-full transition-opacity duration-1000 ease-in-out ${
+          className={`slide absolute w-full h-full  transition-opacity duration-1000 ease-in-out  ${
             index === currentSlide ? "z-10 opacity-100" : "opacity-0"
           }`}
         >
