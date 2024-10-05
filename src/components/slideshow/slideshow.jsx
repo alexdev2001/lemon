@@ -27,7 +27,7 @@ export const Slideshow = () => {
       {slides.map((slide, index) => (
         <div
           key={slide.id}
-          className={`slide absolute w-full h-full  transition-opacity duration-1000 ease-in-out  ${
+          className={`slide absolute w-full h-full  transition-opacity duration-1000 ease-in-out custom-slide-height ${
             index === currentSlide ? "z-10 opacity-100" : "opacity-0"
           }`}
         >
