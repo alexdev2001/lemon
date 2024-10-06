@@ -32,7 +32,7 @@ export default function LogoCarousel() {
   };
 
   return (
-    <div className="md:max-w-[600px]"> {/* Restrict the max width */}
+    <div className="md:w-[600px] custom-carousel"> {/* Restrict the max width */}
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index} className="flex justify-center items-center">
@@ -42,7 +42,7 @@ export default function LogoCarousel() {
                 alt={`logo-${index}`}
                 width={120}  // Set a fixed width for logos
                 height={120} // Set a fixed height for logos
-                className="object-contain transition-transform duration-300 transform hover:scale-110 logo-size"  // Ensures images are contained properly
+                className="object-contain transition-transform duration-300 transform hover:scale-110 logo-size "  // Ensures images are contained properly
                 onMouseOver={(e) => (e.currentTarget.src = logo.image)}
                 onMouseOut={(e) => (e.currentTarget.src = logo.image)}
               />

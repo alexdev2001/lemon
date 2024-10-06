@@ -273,7 +273,7 @@ body {
 
   .slideshow-custom {
     height: 66vh;
-    width: 81%;
+    width: 100%;
   }
 
   .slidetext {
@@ -388,7 +388,7 @@ body {
   }
 
   .custom-slide-text {
-    margin-left: 22%;
+    margin-left: 2%;
     
   }
 
@@ -400,6 +400,18 @@ body {
   .margin-card-custom {
     margin-right: -100%;
   }
+
+  .custom-logos {
+    width: 10px;
+    height: 10px;
+  }
+
+  .custom-carousel {
+    width: 350px;
+    margin-left: 5%;
+  
+  }
+
 
 }
 
