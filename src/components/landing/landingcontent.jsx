@@ -14,8 +14,8 @@ export default function LandingContent() {
   );
   return (
     <>
-      <div >
-        <div className="flex text-left responsive-layout">
+      <div>
+        <div className="flex text-left  custom-margin responsive-layout2">
           <div className="w-full text-left mr-10">
             <div className="card  grid h-32 flex-grow  shadow-none text-black text-left ml-0 font-custom headings w-full">
               <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
@@ -23,7 +23,7 @@ export default function LandingContent() {
               </h1>
               <br />
               <br />
-              <div className="w-full text-lg custom-font-body ">
+              <div className="w-full text-lg custom-font-body">
                 Lemon Secure Solutions provides integrated security solutions by
                 combining manpower with the latest security technology.
                 Guarding, Armed Reaction and Technology are strategically
@@ -32,7 +32,7 @@ export default function LandingContent() {
               </div>
             </div>
           </div>
-          <div className="top-margin-card card-custom">
+          <div className="top-margin-card margin-card-custom">
             <div className="w-[60px]"></div>
             <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10 ">
               <div
@@ -107,9 +107,8 @@ export default function LandingContent() {
           <br />
           <br />
         </div>
-        <div className="">
-          <LogoCarousel />
-        </div>
+
+        <LogoCarousel />
 
         <br />
         <br />

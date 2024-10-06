@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useState, useEffect } from "react";
 import localFont from "next/font/local";
 import { Slideshow } from "@/components/slideshow/slideshow";
 import LandingContent from "../components/landing/landingcontent";
@@ -18,18 +19,20 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <div className="w-full">
-      <div
-        className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 sm:p-20 gap-16 font-[family-name:var(--font-geist-sans)] relative`}
-      >
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full">
-          <Slideshow />
-          <div className="spacer"></div>
-          <div className="flex mr-0 sm:mr-72 w-full">
-            <LandingContent />
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full">
+        <div
+          className={`md:grid md:grid-rows-[20px_1fr_20px] md:items-center md:justify-items-center md:min-h-screen  p-4 md:p-20 md:gap-16 md:font-[family-name:var(--font-geist-sans)] relative`}
+        >
+          <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full">
+            <Slideshow />
+            <div className="spacer"></div>
+            <div className="flex  w-[100%]">
+              <LandingContent />
+            </div>
           </div>
-        </main>
-      </div>
-      <Footer />
+        </div>
+        <Footer />
+      </main>
     </div>
   );
 }

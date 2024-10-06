@@ -41,7 +41,7 @@ export const Slideshow = () => {
           />
         </div>
       ))}
-       <div className="slideshow font-slideshow lide-text absolute bottom-0 left-0 p-4 text-5xl font-bold text-limeGreen z-20 max-w-[1000px] text-xxl">
+       <div className="slideshow font-slideshow custom-slide-text absolute bottom-0 left-0 p-4 text-5xl font-bold text-limeGreen z-20 max-w-[1000px] text-xxl cu">
         Your premier provider of thorough security solutions
       </div>
       <br></br>

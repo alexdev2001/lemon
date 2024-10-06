@@ -32,7 +32,7 @@ export default function LogoCarousel() {
   };
 
   return (
-    <div className="w-full max-w-[600px]  sm;w-[40px] "> {/* Restrict the max width */}
+    <div className="md:max-w-[600px]"> {/* Restrict the max width */}
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index} className="flex justify-center items-center">
