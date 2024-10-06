@@ -1,6 +1,6 @@
 export default function Accordion() {
   return (
-    <div className="shadow-black custom-accordion-width">
+    <div className="shadow-black ">
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"

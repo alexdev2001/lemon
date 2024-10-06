@@ -173,7 +173,7 @@ body {
   .custom-font-body {
     font-size: medium;
     padding: 0 10px; 
-    max-width: 50%;  
+    max-width: 100%;  
     padding: 0 15px; 
     text-align: justify;
   }
@@ -185,7 +185,7 @@ body {
   }
 
   .responsive-layout {
-    margin-top: 105px;
+    margin-top: 220px;
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -208,6 +208,7 @@ body {
 
   .navbar-font {
     font-size: x-small;
+    color: black;
   }
 
   .card-width {
@@ -246,21 +247,16 @@ body {
     height: 60px;
   }
 
-  .custom-font-faq {
-    font-size: xx-small; 
-    text-align: justify;
-  }
-
   .chat {
     width: 58%;
   }
 
   .custom-font-foot {
-    font-size: xx-small;
+    font-size: small;
   }
 
   .custom-footer {
-    width: 99%;
+    width: 109%;
     height: 685px;
     margin-top: -30px;
   }
@@ -273,7 +269,7 @@ body {
 
   .slideshow-custom {
     height: 66vh;
-    width: 100%;
+    width: 105%;
   }
 
   .slidetext {
@@ -283,7 +279,6 @@ body {
     text-align: left;
   }
 
-  
 
   .slidetext-service {
     font-size: 60px; 
@@ -393,12 +388,12 @@ body {
   }
 
   .custom-margin {
-    margin-left: 20%;
+    margin-left: 5%;
     width: 90%;
   }
 
   .margin-card-custom {
-    margin-right: -100%;
+    margin-right: -130%;
   }
 
   .custom-logos {
@@ -407,7 +402,7 @@ body {
   }
 
   .custom-carousel {
-    width: 350px;
+    max-width: 350px;
     margin-left: 5%;
   
   }
