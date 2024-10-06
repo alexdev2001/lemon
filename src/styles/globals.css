@@ -373,9 +373,13 @@ body {
   }
 
   .logo-carousel-custom {
-    max-width: 60%;
+    max-width: 200%;
     align-items: center;
     text-align: center;
+  }
+
+  .card-custom {
+    margin-left: -60%;
   }
   
 

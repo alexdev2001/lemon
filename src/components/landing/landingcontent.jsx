@@ -32,7 +32,7 @@ export default function LandingContent() {
               </div>
             </div>
           </div>
-          <div className="top-margin-card">
+          <div className="top-margin-card card-custom">
             <div className="w-[60px]"></div>
             <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10 ">
               <div
@@ -57,7 +57,8 @@ export default function LandingContent() {
                   </p>
                   <div className="card-actions justify-end">
                     <button className="font-custom-body underline">
-                      about us<span className="text-xl font-custom-body">→</span>{" "}
+                      about us
+                      <span className="text-xl font-custom-body">→</span>{" "}
                     </button>
                   </div>
                 </div>
@@ -106,7 +107,10 @@ export default function LandingContent() {
           <br />
           <br />
         </div>
-        <LogoCarousel />
+        <div className="">
+          <LogoCarousel />
+        </div>
+
         <br />
         <br />
         <br />
