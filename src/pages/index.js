@@ -17,14 +17,14 @@ const geistMono = localFont({
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <div
-        className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-2 gap-16  sm:p-20 font-[family-name:var(--font-geist-sans)] relative`}
+        className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 sm:p-20 gap-16 font-[family-name:var(--font-geist-sans)] relative`}
       >
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full">
           <Slideshow />
           <div className="spacer"></div>
-          <div className="flex mr-72">
+          <div className="flex mr-0 sm:mr-72 w-full">
             <LandingContent />
           </div>
         </main>

@@ -14,7 +14,7 @@ export default function LandingContent() {
   );
   return (
     <>
-      <div>
+      <div className="sm:bg-[var(--mobilebackground)]">
         <div className="flex text-left responsive-layout">
           <div className="w-full text-left mr-10">
             <div className="card  grid h-32 flex-grow  shadow-none text-black text-left ml-0 font-custom headings w-full">
