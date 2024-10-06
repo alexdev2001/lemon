@@ -1,9 +1,9 @@
 import React, { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import watsapp from "../../../public/images/whatsapp (1).png"
-import twitter from "../../../public/images/twitter (1).png"
-import facebook from "../../../public/images/facebook.png"
+import watsapp from "../../../public/images/whatsapp (1).png";
+import twitter from "../../../public/images/twitter (1).png";
+import facebook from "../../../public/images/facebook.png";
 
 export default function ContactContent() {
   const Map = useMemo(
@@ -47,16 +47,16 @@ export default function ContactContent() {
   };
 
   return (
-    <div>
-      <div className="flex text-left responsive-layout-banner">
-        <div className="w-full text-left ">
+    <div className="md:w-full custom-width-small">
+      <div className="flex text-left responsive-layout-banner custom-margin-contact">
+        <div className="w-full text-left">
           <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
             <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
-              Writes us a message
+              Write us a message
             </h1>
             <br />
             <br />
-            <div className="w-full text-lg custom-font-body">
+            <div className="w-full text-lg custom-font-body-contact">
               Feel free to reach out to us anytime—whether you have a question,
               need more information, or just want to connect. We’d love to hear
               from you and are here to help with any inquiries you may have!
@@ -65,7 +65,7 @@ export default function ContactContent() {
         </div>
       </div>
       <br />
-      <div className="flex text-left custom-font-body-contact">
+      <div className="flex text-left custom-font-body-contact custom-margin-contact">
         <div className="form-container custom-container w-full">
           <form onSubmit={handleSubmit} className="font-custom">
             <div className="form-group">
@@ -126,15 +126,15 @@ export default function ContactContent() {
       <br />
       <br />
       <br />
-      <div className="flex text-left responsive-layout-contact">
-        <div className="w-full text-left ">
+      <div className="flex text-left responsive-layout-contact custom-margin-contact">
+        <div className="w-full text-left">
           <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
             <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
               Physical Location
             </h1>
             <br />
             <br />
-            <div className="w-full text-lg custom-font-body">
+            <div className="w-full text-lg custom-font-body-contact">
               You can easily locate Lemon Secure Solutions at First House, Plot
               Number BC52/53, Livingstone Avenue, P.O. Box 1246, Blantyre. The
               map below provides precise directions to our office, making your
@@ -149,23 +149,24 @@ export default function ContactContent() {
       <br />
       <br />
       <br />
-      <div className="flex text-left responsive-layout-contact">
+      <div className="flex text-left responsive-layout-contact custom-margin-contact">
         <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
           <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
             Visit our social media
           </h1>
           <br />
           <br />
-          <div className="w-full text-lg custom-font-bod">
+          <div className="w-full text-lg custom-font-body-contact">
             Stay connected with Lemon Secure Solutions! Follow us on our social
             media pages for the latest updates, security tips, and insights into
-            our services. You can also reach out to the following number for more information  +265 999 257 356.
+            our services. You can also reach out to the following number for
+            more information +265 999 257 356.
           </div>
         </div>
       </div>
+      <br />
+      <br />
       <br/>
-      <br />
-      <br />
       <div className="custom-spacer-contact"></div>
       <div className="flex text-left">
         <Image
@@ -174,14 +175,14 @@ export default function ContactContent() {
           width={50}
           height={50}
         />
-        <div className="w-24"/>
+        <div className="w-24" />
         <Image
           className="transition-transform duration-300 transform hover:scale-110"
           src={twitter}
           width={50}
           height={50}
         />
-        <div className="w-24"/>
+        <div className="w-24" />
         <Image
           className="transition-transform duration-300 transform hover:scale-110"
           src={facebook}
@@ -189,6 +190,8 @@ export default function ContactContent() {
           height={50}
         />
       </div>
+      <br/>
     </div>
   );
 }
+

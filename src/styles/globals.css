@@ -56,6 +56,7 @@ body {
 .layout-container {
   position: fixed;
 }
+
 .slideshow {
   position: absolute;
   top: 119px; /* Keep this as per your layout */
@@ -276,7 +277,7 @@ body {
 
   .slideshow-custom {
     height: 66vh;
-    width: 105%;
+    width: 120%;
   }
 
   .slidetext {
@@ -423,7 +424,7 @@ body {
   }
 
   .custom-container {
-    width: 50%;
+    width: 200%;
   }
 
   .custom-width-small {
@@ -432,13 +433,47 @@ body {
   }
 
   .custom-banner-contact {
-    width: 2000px;
+    width: 200%;
+    margin-left: -40%
+  }
+
+  .custom-contact-width {
+    width: 240px;
   }
 
   .custom-margin-contact {
-    
-
+    width: 140%;
   }
+
+  .slideshow-custom {
+    position: absolute;
+    top: 119px; /* Keep this as per your layout */
+    left: 0;
+    height: 60vh;
+    width: 139%;
+    overflow: hidden;
+  }
+
+  .custom-font-body-contact {
+    font-size: medium;
+    padding: 0 10px; 
+    width: 90%;  
+    padding: 0 15px; 
+    text-align: justify;
+  }
+
+  .custom-footer-contact {
+    width: 140%;
+    height: 685px;
+    margin-top: -30px;
+    margin-left: 32px;
+    margin-right: -88px;
+  }
+
+  .custom-spacer {
+    height: 440px;
+  }
+
 
  
 

@@ -9,7 +9,7 @@ export default function ContactBanner() {
       ];
     
   return (
-    <div className="slideshow relative w-full h-[50vh] custom-banner-contact">
+    <div className="md:absolute md:top-[119px] md:left-0 md:h-[50vh] md:max-w-[110%] md:overflow-hidden relative md:w-full h-[50vh] custom-banner slideshow-custom">
       {slides.map((slide, index) => (
         <div
           key={slide.id}
