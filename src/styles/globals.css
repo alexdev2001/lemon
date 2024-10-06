@@ -118,6 +118,7 @@ body {
   margin-bottom: 15px;
   background-color:  #F8F0E3;
 }
+
 .form-group label {
   display: block;
   margin-bottom: 5px;
@@ -473,6 +474,10 @@ body {
 
   .custom-spacer {
     height: 440px;
+  }
+
+  .custom-form {
+    background-color: white;
   }
 
 

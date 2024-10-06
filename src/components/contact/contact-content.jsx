@@ -66,9 +66,9 @@ export default function ContactContent() {
       </div>
       <br />
       <div className="flex text-left custom-font-body-contact custom-margin-contact">
-        <div className="form-container custom-container w-full">
-          <form onSubmit={handleSubmit} className="font-custom">
-            <div className="form-group">
+        <div className="form-container custom-container w-full custom-form">
+          <form onSubmit={handleSubmit} className="font-custom custom-form">
+            <div className="form-group custom-form">
               <label htmlFor="first-name">First Name</label>
               <input
                 type="text"
@@ -80,7 +80,7 @@ export default function ContactContent() {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="form-group custom-form">
               <label htmlFor="last-name">Last Name</label>
               <input
                 className="w-full"
@@ -92,7 +92,7 @@ export default function ContactContent() {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="form-group custom-form">
               <label htmlFor="email">Email</label>
               <input
                 className="w-full"
@@ -104,7 +104,7 @@ export default function ContactContent() {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="form-group custom-form">
               <label htmlFor="message">Message</label>
               <textarea
                 className="message w-full"
@@ -116,7 +116,7 @@ export default function ContactContent() {
                 required
               ></textarea>
             </div>
-            <div className="form-group">
+            <div className="form-group custom-form">
               <button type="submit">Submit</button>
             </div>
           </form>
