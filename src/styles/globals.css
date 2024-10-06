@@ -216,6 +216,7 @@ body {
 
   .navbar-font {
     font-size: x-small;
+    font-weight: bold;
     color: black;
   }
 
@@ -388,7 +389,7 @@ body {
   }
   
   :root {
-    --background: #F8F0E3; 
+    --background: white; 
   }
 
   .custom-slide-text {
