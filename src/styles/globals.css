@@ -191,6 +191,13 @@ body {
     align-items: center; 
   }
 
+  .responsive-layout-banner {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
   .responsive-card {
     width: 50%; 
     padding: 0; 
@@ -310,7 +317,8 @@ body {
   .responsive-layout2 {
     display: flex;
     flex-direction: column; 
-    align-items: center; 
+    align-items: center;
+    margin-left: 5%; 
   }
 
   .custom-font-body-about {
@@ -404,7 +412,10 @@ body {
   .custom-carousel {
     max-width: 350px;
     margin-left: 5%;
-  
+  }
+
+  .custom-banner {
+    width: 105%;
   }
 
 

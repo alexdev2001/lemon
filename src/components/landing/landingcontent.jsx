@@ -15,8 +15,8 @@ export default function LandingContent() {
   return (
     <>
       <div>
-        <div className="flex text-left custom-margin  responsive-layout">
-          <div className="w-full text-left mr-10">
+        <div className="flex text-left responsive-layout">
+          <div className="w-full text-left">
             <div className="card  grid h-32 flex-grow  shadow-none text-black text-left ml-0 font-custom headings w-full">
               <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
                 Who we are

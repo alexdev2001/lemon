@@ -48,15 +48,15 @@ const ServicesContent = forwardRef((props, ref) => {
   return (
     <>
       <div>
-        <div className="flex text-left responsive-layout">
-          <section className="w-full text-left mr-10" ref={personalRef}>
-            <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
+        <div className="flex text-left responsive-layout-banner">
+          <section className="w-full text-left" ref={personalRef}>
+            <div className="card  grid h-32 flex-grow  shadow-none text-black text-left ml-0 font-custom headings w-full">
               <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
                 Personal Security
               </h1>
               <br />
               <br />
-              <div className="w-full text-lg custom-font-body-service">
+              <div className="w-full text-lg custom-font-body">
                 Lemon Secure Solutions provides highly trained Close Protection
                 Officers (CPOs) for the personal safety of executives,
                 dignitaries, celebrities, and private individuals. Our CPOs
@@ -99,7 +99,7 @@ const ServicesContent = forwardRef((props, ref) => {
         <br />
         <br />
         <br />
-        <div className="flex text-left  responsive-layout2 ">
+        <div className="flex text-left  responsive-layout2">
           <section className="w-full text-left mr-10" ref={guardRef}>
             <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
               <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
@@ -107,7 +107,7 @@ const ServicesContent = forwardRef((props, ref) => {
               </h1>
               <br />
               <br />
-              <div className="w-full text-lg custom-font-body-service">
+              <div className="w-full text-lg custom-font-body">
                 Lemon Secure Solutions offers skilled armed and unarmed guards
                 for commercial, residential, retail, and educational sectors.
                 All officers are thoroughly vetted, and sites are backed by
@@ -157,7 +157,7 @@ const ServicesContent = forwardRef((props, ref) => {
               </h1>
               <br />
               <br />
-              <div className="w-full text-lg custom-font-body-service">
+              <div className="w-full text-lg custom-font-body">
                 Lemon Secure Solutions offers a comprehensive range of technical
                 services, including custom security installations tailored to
                 each site's unique needs. We specialize in CCTV installations
@@ -204,7 +204,7 @@ const ServicesContent = forwardRef((props, ref) => {
               </h1>
               <br />
               <br />
-              <div className="w-full text-lg custom-font-body-service">
+              <div className="w-full text-lg custom-font-body">
                 Lemon Secure Solutions offers an application for clients to
                 conduct background checks and access security officer
                 performance data, allowing thorough vetting and quick issue
@@ -270,7 +270,7 @@ const ServicesContent = forwardRef((props, ref) => {
               </h1>
               <br />
               <br />
-              <div className="w-full text-lg custom-font-body-service">
+              <div className="w-full text-lg custom-font-body">
                 Lemon Secure Solutions offers online intelligence through Track
                 Force, a GIS tool that monitors urban infrastructure and
                 provides data for resource planning. We also specialize in
@@ -316,7 +316,7 @@ const ServicesContent = forwardRef((props, ref) => {
               </h1>
               <br />
               <br />
-              <div className="w-full text-lg custom-font-body-service">
+              <div className="w-full text-lg custom-font-body">
                 Lemon Secure Solutions offers comprehensive on-site risk
                 assessments, where a skilled assessor visits your premises to
                 thoroughly evaluate your existing security measures and identify

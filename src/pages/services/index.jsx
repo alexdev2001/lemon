@@ -37,23 +37,25 @@ export default function Services() {
   }, [router.query.section]);
 
   return (
-    <div>
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-          <ServicesBanner />
-          <div className="spacer"></div>
-          <div className="flex mr-72">
-            <ServicesContent
-              personalRef={personalRef}
-              cyberRef={cyberRef}
-              cctvRef={cctvRef}
-              verifyRef={verifyRef}
-              guardRef={guardRef}
-            />
+    <div className="w-full">
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start md:w-full sm:w-[10px]">
+        <div className={`md:grid md:grid-rows-[20px_1fr_20px] md:items-center md:justify-items-center md:min-h-screen  p-4 md:p-20 md:gap-16 md:font-[family-name:var(--font-geist-sans)] relative`}>
+          <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+            <ServicesBanner />
+            <div className="spacer"></div>
+            <div className="flex md:mr-72">
+              <ServicesContent
+                personalRef={personalRef}
+                cyberRef={cyberRef}
+                cctvRef={cctvRef}
+                verifyRef={verifyRef}
+                guardRef={guardRef}
+              />
+            </div>
           </div>
-        </main>
-      </div>
-      <Footer />
+        </div>
+        <Footer />
+      </main>
     </div>
   );
 }
