@@ -387,7 +387,7 @@ body {
   }
   
   :root {
-    --background: white; 
+    --background: #F8F0E3; 
   }
 
   .custom-slide-text {
@@ -422,6 +422,25 @@ body {
     padding-left: 200px;
   }
 
+  .custom-container {
+    width: 50%;
+  }
+
+  .custom-width-small {
+   width: 100%;
+   
+  }
+
+  .custom-banner-contact {
+    width: 2000px;
+  }
+
+  .custom-margin-contact {
+    
+
+  }
+
+ 
 
 }
 

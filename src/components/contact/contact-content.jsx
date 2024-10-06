@@ -48,15 +48,15 @@ export default function ContactContent() {
 
   return (
     <div>
-      <div className="flex text-left responsive-layout">
-        <div className="w-full text-left mr-10">
+      <div className="flex text-left responsive-layout-banner">
+        <div className="w-full text-left ">
           <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
             <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
               Writes us a message
             </h1>
             <br />
             <br />
-            <div className="w-full text-lg custom-font-body-contact">
+            <div className="w-full text-lg custom-font-body">
               Feel free to reach out to us anytime—whether you have a question,
               need more information, or just want to connect. We’d love to hear
               from you and are here to help with any inquiries you may have!
@@ -66,13 +66,14 @@ export default function ContactContent() {
       </div>
       <br />
       <div className="flex text-left custom-font-body-contact">
-        <div className="form-container">
+        <div className="form-container custom-container w-full">
           <form onSubmit={handleSubmit} className="font-custom">
             <div className="form-group">
               <label htmlFor="first-name">First Name</label>
               <input
                 type="text"
                 id="first-name"
+                className="w-full"
                 name="First_name"
                 value={form.First_name}
                 onChange={handleChange}
@@ -82,6 +83,7 @@ export default function ContactContent() {
             <div className="form-group">
               <label htmlFor="last-name">Last Name</label>
               <input
+                className="w-full"
                 type="text"
                 id="last-name"
                 name="Last_name"
@@ -93,6 +95,7 @@ export default function ContactContent() {
             <div className="form-group">
               <label htmlFor="email">Email</label>
               <input
+                className="w-full"
                 type="email"
                 id="email"
                 name="Email"
@@ -104,7 +107,7 @@ export default function ContactContent() {
             <div className="form-group">
               <label htmlFor="message">Message</label>
               <textarea
-                className="message"
+                className="message w-full"
                 id="message"
                 name="Message"
                 rows="5"
@@ -124,14 +127,14 @@ export default function ContactContent() {
       <br />
       <br />
       <div className="flex text-left responsive-layout-contact">
-        <div className="w-full text-left mr-10">
+        <div className="w-full text-left ">
           <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
             <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
               Physical Location
             </h1>
             <br />
             <br />
-            <div className="w-full text-lg custom-font-body-contact">
+            <div className="w-full text-lg custom-font-body">
               You can easily locate Lemon Secure Solutions at First House, Plot
               Number BC52/53, Livingstone Avenue, P.O. Box 1246, Blantyre. The
               map below provides precise directions to our office, making your
@@ -141,9 +144,7 @@ export default function ContactContent() {
         </div>
       </div>
       <br />
-      <div className="flex text-left custom-map">
-        <Map />
-      </div>
+      <Map />
       <br />
       <br />
       <br />
@@ -155,13 +156,14 @@ export default function ContactContent() {
           </h1>
           <br />
           <br />
-          <div className="w-full text-lg custom-font-body-contact">
+          <div className="w-full text-lg custom-font-bod">
             Stay connected with Lemon Secure Solutions! Follow us on our social
             media pages for the latest updates, security tips, and insights into
             our services. You can also reach out to the following number for more information  +265 999 257 356.
           </div>
         </div>
       </div>
+      <br/>
       <br />
       <br />
       <div className="custom-spacer-contact"></div>
