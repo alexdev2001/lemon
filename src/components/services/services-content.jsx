@@ -71,7 +71,7 @@ const ServicesContent = forwardRef((props, ref) => {
             </div>
           </section>
           <div className="w-[50px]"></div>
-          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10 ">
+          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-7 ">
             <div>
               <div className="stack custom-image-service">
                 <Image
@@ -121,7 +121,7 @@ const ServicesContent = forwardRef((props, ref) => {
             </div>
           </section>
           <div className="w-[50px]"></div>
-          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-7">
             <div>
               <div className="stack custom-image-service">
                 <Image
@@ -168,7 +168,7 @@ const ServicesContent = forwardRef((props, ref) => {
             </div>
           </section>
           <div className="w-[50px]"></div>
-          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-7">
             <div>
               <div className="stack custom-image-service">
                 <Image
@@ -234,7 +234,7 @@ const ServicesContent = forwardRef((props, ref) => {
             </div>
           </section>
           <div className="w-[50px]"></div>
-          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-7">
             <div>
               <div className="stack custom-image-service-analysis">
                 <Image
@@ -280,7 +280,7 @@ const ServicesContent = forwardRef((props, ref) => {
             </div>
           </section>
           <div className="w-[50px]"></div>
-          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-7">
             <div>
               <div className="stack custom-image-service">
                 <Image
@@ -325,7 +325,7 @@ const ServicesContent = forwardRef((props, ref) => {
             </div>
           </div>
           <div className="w-[50px]"></div>
-          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+          <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-7">
             <div>
               <div className="stack custom-image-service">
                 <Image

@@ -418,6 +418,10 @@ body {
     width: 105%;
   }
 
+  .custom-padding {
+    padding-left: 200px;
+  }
+
 
 }
 

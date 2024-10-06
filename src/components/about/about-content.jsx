@@ -7,15 +7,15 @@ import mission from "../../../public/images/target.png";
 export default function AboutContent() {
   return (
     <div>
-      <div className="flex text-left responsive-layout-about">
-        <div className="w-full text-left mr-10">
+      <div className="flex text-left responsive-layout-banner">
+        <div className="w-full text-left">
           <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
             <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
               Our History
             </h1>
             <br />
             <br />
-            <div className="w-full text-lg custom-font-body-about">
+            <div className="w-full text-lg custom-font-body">
               Founded in 2024, Lemon Secure Solutions offers integrated security
               by combining manpower with advanced technology. As an
               owner-managed company, we understand South Africa's unique
@@ -27,7 +27,7 @@ export default function AboutContent() {
         </div>
     
         <div className="w-[50px]"></div>
-        <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+        <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10 custom-padding">
           <div>
             <div className="avatar">
               <div className=" h-[150px] w-[150px] flex justify-center items-center">
@@ -42,15 +42,15 @@ export default function AboutContent() {
       <br />
       <br/>
       <br/>
-      <div className="flex text-left responsive-layout3">
-        <div className="w-full text-left mr-10">
+      <div className="flex text-left responsive-layout-banner">
+        <div className="w-full text-left ">
           <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
             <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
               About Our Company
             </h1>
             <br />
             <br />
-            <div className="w-full text-lg custom-font-body-about">
+            <div className="w-full text-lg custom-font-body">
               Lemon Secure Solutions excels in GPS tracking, CCTV systems, and
               professional guard services. Committed to safety and innovation,
               we’ve earned the trust of clients by continuously adapting to meet
@@ -60,7 +60,7 @@ export default function AboutContent() {
         </div>
  
         <div className="w-[50px]"></div>
-        <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+        <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10 custom-padding">
           <div>
             <div className="avatar">
               <div className=" h-[150px] w-[150px] flex justify-center items-center">
@@ -75,15 +75,15 @@ export default function AboutContent() {
       <br />
       <br/>
       <br/>
-      <div className="flex text-left responsive-layout3">
-        <div className="w-full text-left mr-10">
+      <div className="flex text-left responsive-layout-banner">
+        <div className="w-full text-left">
           <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
             <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
               Vision
             </h1>
             <br />
             <br />
-            <div className="w-full text-lg custom-font-body-about">
+            <div className="w-full text-lg custom-font-body">
               Our focus on customer satisfaction sets us apart, fostering
               lasting relationships built on trust. We relentlessly pursue
               excellence, continuously innovating to ensure Lemon Security is
@@ -91,9 +91,8 @@ export default function AboutContent() {
             </div>
           </div>
         </div>
-    
-        <div className="w-[50px]"></div>
-        <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+        <div className="md:w-[50px]"></div>
+        <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10 custom-padding">
           <div>
             <div className="avatar">
               <div className="h-[150px] w-[150px] flex justify-center items-center">
@@ -108,15 +107,15 @@ export default function AboutContent() {
       <br />
       <br/>
       <br/>
-      <div className="flex text-left responsive-layout3">
-        <div className="w-full text-left mr-10">
+      <div className="flex text-left responsive-layout-banner">
+        <div className="w-full text-left">
           <div className="card grid h-32 flex-grow shadow-none text-black text-left ml-0 font-custom headings w-full">
             <h1 className="text-3xl font-extrabold border-b-4 border-black pb-2 inline-block custom-font-head">
               Mission
             </h1>
             <br />
             <br />
-            <div className="w-full text-lg custom-font-body-about">
+            <div className="w-full text-lg custom-font-body">
               We aim to build lasting client relationships by offering
               personalized, high-quality services tailored to their needs,
               fostering trust and mutual success.
@@ -125,7 +124,7 @@ export default function AboutContent() {
         </div>
     
         <div className="w-[50px]"></div>
-        <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none pl-10">
+        <div className="w-[300px] rounded-box grid flex-grow place-items-center shadow-none md:pl-10 custom-padding">
           <div>
             <div className="avatar">
               <div className="h-[150px] w-[150px] flex justify-center items-center">

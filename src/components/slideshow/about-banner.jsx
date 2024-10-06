@@ -9,11 +9,11 @@ export default function AboutBanner() {
       ];
     
   return (
-    <div className="slideshow relative w-full h-[50vh]">
+    <div className="slideshow relative w-full h-[50vh] custom-banner">
       {slides.map((slide, index) => (
         <div
           key={slide.id}
-          className={`slide absolute w-full h-full transition-opacity duration-1000 ease-in-out ${
+          className={`slide absolute w-full h-full transition-opacity duration-1000 ease-in-out custom-slide-height ${
             index === currentSlide ? "z-10 opacity-100" : "opacity-0"
           }`}
         >
