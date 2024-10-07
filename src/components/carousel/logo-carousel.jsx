@@ -14,7 +14,6 @@ const logos = [
   { image: gov, link: 'https://www.malawi.gov.mw/' },
   { image: escomReg, link: 'https://www.escom.mw/' },
   { image: mra, link: 'https://www.mra.mw/' },
-  { image: mecReg, link: 'https://mec.org.mw/' }
 ];
 
 export default function LogoCarousel() {
