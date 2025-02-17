@@ -72,7 +72,7 @@ export default function Footer() {
       </nav>
       <br/>
       <div className="text-center absolute bottom-2 left-1/2 transform -translate-x-1/2">
-        <p> &copy; 2024 Ace Holdings</p>
+        <p> &copy; 2025 Ace Holdings</p>
       </div>
     </footer>
   );
