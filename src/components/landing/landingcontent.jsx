@@ -130,12 +130,12 @@ export default function LandingContent() {
           <div>
             <div className="chat custom">
               <div className="chat chat-start ">
-                <div className="chat-bubble bg-[rgba(114,145,32,0.8)] text-blue-950 custom-font-body">
+                <div className="chat-bubble sm:flex bg-[rgba(114,145,32,0.8)] text-blue-950 custom-font-body">
                   Do you offer 24/7 security services?
                 </div>
               </div>
               <div className="chat chat-end">
-                <div className="chat-bubble custom-font-body ml-[130px]">
+                <div className="chat-bubble sm:flex custom-font-body ml-[130px]">
                   Yes, our security services, <br /> including monitoring and
                   response, are available 24/7
                 </div>
@@ -146,13 +146,13 @@ export default function LandingContent() {
             <br />
             <div className="chat custom">
               <div className="chat chat-start ">
-                <div className="chat-bubble bg-[rgba(114,145,32,0.8)] text-blue-950 custom-font-body">
+                <div className="chat-bubble sm:flex bg-[rgba(114,145,32,0.8)] text-blue-950 custom-font-body">
                   How quickly can your armed reaction unit <br /> respond to an
                   emergency?
                 </div>
               </div>
               <div className="chat chat-end ml-[130px]">
-                <div className="chat-bubble custom-font-body">
+                <div className="chat-bubble sm:flex custom-font-body">
                   Our response times depend on the location, but we strive to
                   reach <br />
                   any emergency within 5–15 minutes of an alarm being triggered.
